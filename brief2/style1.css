@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+.bloc1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: -26px;
+}
+
+.sous_bloc1 {
+display: flex;
+align-self: flex-end;
+align-items: center;
+
+}    
+
+.sous_bloc2 {
+
+width: 20%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 10px;
+}
+
+.recherche_bare {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px;
+    border-style: none;
+    height: 35px;
+    min-width: 158%;
+    border-radius: 25px;
+    border-style: outset;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+
+}
+
+input[type=text] {
+    border: none; 
+    min-width: 80%; 
+    height: 80%; outline: none;
+}
+
+.bloc2 { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: -28px;
+    margin-left: 15%;
+    margin-top: -34px;
+    font-size: 13px;
+    
+}
+
+.connexion button{
+    background-color: white;
+    padding: 2px;
+    
+}
+
+.col select{
+    max-width: 50%;
+    border: none;
+}
+
+.menu img {
+    width: 30px;
+}
+.liens{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    color: #7e7b7b;
+    height: 50px;
+}
+
+hr{
+    width: 100%;
+}
+.liens a{
+    position: relative;
+    text-decoration: none;
+    color: #d8d7d7;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.liens a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.liens a:hover{
+    color: #000;
+}
+.liens a:hover::after {
+    width: 100%;
+}
+
+.change{
+    display: flex;
+    gap: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.modere{
+    display: flex;
+    gap: 10px;
+}
+
+.modere img {
+    width: 10px;
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+    
+}
+
+.filtre img {
+    width: 15px;
+}
+
+.liens a {
+    color: #000;
+    outline: none;
+
+}
+
+.listes {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+}
+
+.swiper-slide img {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 2px;
+} 
+.swiper {
+    width: 100%;
+    height: 300px;
+  }
