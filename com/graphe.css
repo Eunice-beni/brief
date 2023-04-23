@@ -1,0 +1,345 @@
+@media only screen and (max-width: 768px){
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #6A6665;
+  }
+  
+  .menu a {
+    display: block;
+    font-size: 10px;
+  }
+
+ 
+
+  .secondaire {
+    position: relative;
+    top: 10px;
+  }
+
+  .principal {
+    background: linear-gradient(to bottom right, #24252400, #b4acac00);
+    height: 30%;
+    width: 100%;
+
+  }
+
+  .trois {}
+
+  .img img {
+    width: 60px;
+    height: 50px;
+  }
+
+  .sidebar_gche {
+    width: 20%;
+    height: 550px;
+    background: black;
+    border-radius: 35px 0px 0px 35px;
+   
+    position: relative;
+    top: 0px;
+    right: -3px;
+  }
+
+  .menu {
+
+    text-decoration: none;
+  }
+
+  .fond_blanc {
+    width: 79%;
+    height: 550px;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 550px;
+    right: 2px;
+    border-radius: 0px 35px 35px 0px;
+
+  }
+
+  .chartCard {
+    border: solid, #00A51E;
+  }
+
+  .chartBox {
+    border: solid;
+    border-color: #d2d20cf3;
+    border-radius: 25px;
+    color: #000;
+    width: 80%;
+    position: relative;
+    top: 230px;
+    left: 10px;
+
+    
+  }
+
+  .barderecherche {
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+  }
+
+
+  .barderecherche3 {
+    position: relative;
+    left: 33%;
+    top: 574px;
+    border-radius: 100px;
+    background-color: #00A51E;
+    border: #00A51E;
+    padding: 9px;
+    font-size: 11px;
+
+  }
+
+  select {
+    position: relative;
+    left: -80px;
+    top: 250px;
+    width: 65%;
+    height: 30px;
+    border-radius: 25px;
+  }
+
+  hr {
+    width: 100%;
+    background-color: #bd02023f;
+  }
+
+  barderecherche2 {
+    position: relative;
+    top: 70px;
+  }
+
+  p {
+    padding: 3px;
+    border: #000 solid 0px;
+    border-radius: 50% 50%;
+    background-color: #66A950;
+    width: 13px;
+    position: relative;
+    top: 20px;
+    right: -%;
+  }
+
+
+  .list-item {
+    position: relative;
+    left: 32%;
+    top: 0px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 60%;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .lien {
+    position: relative;
+    left: -8.1px;
+    padding: 6px;
+    background-color: #bd02023f;
+    border-radius: 0px;
+    width: 160px;
+    height: 28px;
+    font-size: 15px;
+    color: #6A6665;
+  }
+
+  .nav {
+    background-color:#bd02023f;
+    height: 50px;
+    position: relative;
+    bottom:0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (min-width:820px){
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #6A6665;
+  }
+  
+  .menu a {
+    display: block;
+    font-size: 10px;
+  }
+
+ 
+
+  .secondaire {
+    position: relative;
+    top: 10px;
+  }
+
+  .principal {
+    background: linear-gradient(to bottom right, #24252400, #b4acac00);
+    height: 30%;
+    width: 100%;
+
+  }
+
+  .trois {}
+
+  .img img {
+    width: 60px;
+    height: 50px;
+  }
+
+  .sidebar_gche {
+    width: 20%;
+    height: 550px;
+    background: black;
+    border-radius: 35px 0px 0px 35px;
+   
+    position: relative;
+    top: 0px;
+    right:  -13%;
+  }
+
+  .menu {
+
+    text-decoration: none;
+  }
+
+  .fond_blanc {
+    width: 69%;
+    height: 550px;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 550px;
+    right: 2px;
+    border-radius: 0px 35px 35px 0px;
+
+  }
+
+  .chartCard {
+    border: solid, #00A51E;
+  }
+
+  .chartBox {
+    border: solid;
+    border-color: #d2d20cf3;
+    border-radius: 25px;
+    color: #000;
+    width: 80%;
+    position: relative;
+    top: 230px;
+    left: 10px;
+
+    
+  }
+
+  .barderecherche {
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+  }
+
+
+  .barderecherche3 {
+    position: relative;
+    left: 37%;
+    top: 594px;
+    border-radius: 100px;
+    background-color: #00A51E;
+    border: #00A51E;
+    padding: 9px;
+    font-size: 11px;
+
+  }
+
+  select {
+    position: relative;
+    left: -80px;
+    top: 250px;
+    width: 65%;
+    height: 30px;
+    border-radius: 25px;
+  }
+
+  hr {
+    width: 100%;
+    background-color: #bd02023f;
+  }
+
+  barderecherche2 {
+    position: relative;
+    top: 70px;
+  }
+
+  p {
+    padding: 9px;
+    border: #000 solid 0px;
+    border-radius: 50% 50%;
+    background-color: #66A950;
+    width: 13px;
+    position: relative;
+    top: 20px;
+    right: -6px;
+  }
+
+
+  .list-item {
+    position: relative;
+    left: 38%;
+    top: -10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 100%;
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .lien {
+    position: relative;
+    left: -8.1px;
+    padding: 6px;
+    background-color: #bd02023f;
+    border-radius: 0px;
+    width: 160px;
+    height: 28px;
+    font-size: 15px;
+    color: #6A6665;
+  }
+
+  .nav {
+    background-color:#bd02023f;
+    height: 50px;
+    position: relative;
+    bottom:0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+}

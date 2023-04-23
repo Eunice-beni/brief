@@ -1,0 +1,637 @@
+@media only screen and (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .container{
+    
+        background: linear-gradient(to bottom right, #242524c6, #b4acaca8);
+       width: 170%;
+       height: 130vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+        
+    }
+    section{
+        
+        
+        display: flex;
+        
+       margin-bottom: 50px;
+       
+    
+    }
+    .h{
+        display: flex;
+        justify-content: space-around;
+        background-color:#bd02023f;
+        width: 60% ;
+    }
+    .img, img{
+        width: 90px;
+        height: 50px;
+    }
+    .lien{
+        background-color:#bd020278;
+        height: 10px;
+        padding:20px;
+        width: 110px;
+    
+    }
+    nav{
+        background-color: black;
+        width: 80px ;
+        height: 650px;
+       overflow-y: scroll;
+        position: relative;
+        left: 1px ;
+        top: 20px;
+        border-radius: 35px 0px 0px 35px;
+        
+    }
+    nav a{
+        margin-left: 0;
+    padding: 1px;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    hr{
+        width: 250%;
+    }
+    p{
+        padding: 2px;
+        background-color:gray ;
+        width: 14px;
+        border-radius: 100%;
+        position: relative;
+        top: 4px ;
+    }
+    h2{
+        position: relative;
+        left: 17px;
+        font-size: 12px;
+    }
+    form{
+        width: 290px ;
+        position: relative;
+        background-color: white;
+        border-color: black;
+        height: 650px;
+        position: relative;
+        left: 1px ;
+        top: 20px;
+        border-radius: 0px 35px 35px 0px;
+        }
+        input[type=text]{
+            width: 220px ;
+            border: none;
+            position: relative;
+            bottom: 10px;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+          }
+    
+     fieldset{
+        border-color:gray;
+        width: 220px ;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        height: 20px;
+     }
+    .fond{
+        position: relative;
+        left: 10px;
+    
+    }
+    .date{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        right: 10px;
+        margin-top: 30px;
+        
+        
+    }
+    #datepost, #dateEvenement{
+        border: solid 1px ;
+        border-color: gray;
+        border-radius: 5px;
+        height: 30px;
+        width: 80px;
+    }
+    .number{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        right: 40px;
+        
+    }
+    
+    #nbrenfants, #nbrfemmes, #nbrhommes{
+        width: 40px;
+        font-size: 9px;
+        border: none;
+        
+
+    }
+    .nbrenfants, .nbrfemmes, .nbrhommes{
+        width: 30px ;
+        font-size: 10px;  
+        height: 30px ;
+        position: relative;
+        left: 20px;
+
+        }
+    select{
+        width: 215px ;
+        border: none;
+        position: relative;
+        bottom: 10px;
+    }
+    .cercle_vert{
+        position: relative;
+        left: 190px;
+        top: 39px;
+        background-color: #00A51E;
+        border-radius: 100%;
+        padding: 6px;
+        border: #00A51E;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    
+body{
+    margin: 0;
+    padding: 0;
+    width: 150vh;
+}
+
+.container{
+
+    background: linear-gradient(to bottom right, #242524c6, #b4acaca8);
+   width: 150vh;
+   height: 130vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+section{
+    
+    
+    display: flex;
+    
+   margin-bottom: 50px;
+   
+
+}
+.h{
+    display: flex;
+    justify-content: space-around;
+    background-color:#bd02023f;
+    width: 100%;
+}
+.img, img{
+    width: 90px;
+    height: 50px;
+}
+.lien{
+    background-color:#bd020278;
+    height: 10px;
+    padding:20px;
+    width: 110px;
+
+}
+nav{
+    background-color: black;
+    width: 85px;
+    height: 650px;
+   overflow-y: scroll;
+    position: absolute;
+    left: 0px ;
+        top: 80px;
+    border-radius: 35px 0px 0px 35px;
+    
+}
+nav a{
+padding: 1px;
+display: block;
+font-size: 12px;
+text-decoration: none;
+color: aliceblue;
+}
+p{
+    padding: 0px;
+    background-color:gray ;
+    width: 14px;
+    border-radius: 100%;
+    position: relative;
+    top: 26px;
+    
+}
+h2{
+    position: relative;
+    left: 20px;
+}
+form{
+    width: 265px;
+    position: relative;
+    background-color: white;
+    border-color: black;
+    height: 650px;
+    position: relative;
+    left: 85px ;
+    top: 20px;
+    border-radius: 0px 35px 35px 0px;
+    }
+    input[type=text]{
+        width: 200px;
+        border: none;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+ fieldset{
+    border-color:gray;
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+ }
+.fond{
+    position: relative;
+    left: 13px;
+
+}
+.date{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 9px;
+    margin-top: 10px;
+    
+    
+}
+#datepost, #dateEvenement{
+    border: solid 1px ;
+    border-color: gray;
+    border-radius: 5px;
+    height: 30px;
+}
+.number{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 20px;
+    
+}
+#nbrenfants, #nbrfemmes, #nbrhommes{
+    width: 50px ;
+    font-size: 8px;
+    border: none;
+    
+}
+.nbrenfants, .nbrfemmes, .nbrhommes{
+    width: 40px ;
+    font-size: 10px;  
+    height: 30px ;
+    position: relative;
+    left: 10px;
+    }
+select{
+    width: 200px;
+    border: none;
+}
+.cercle_vert{
+    position: relative;
+    left: 170px;
+    top: 29px;
+    background-color: #00A51E;
+    border-radius: 100%;
+    padding: 6px;
+    border: #00A51E;
+}
+}
+@media only screen and (max-width: 992px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .container{
+    
+        background: linear-gradient(to bottom right, #242524c6, #b4acaca8);
+       width: 130%;
+       height: 130vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+        
+    }
+    section{
+        
+        
+        display: flex;
+        
+       margin-bottom: 50px;
+       
+    
+    }
+    .h{
+        display: flex;
+        justify-content: space-around;
+        background-color:#bd02023f;
+        width: 100%;
+    }
+    .img, img{
+        width: 90px;
+        height: 50px;
+    }
+    .lien{
+        background-color:#bd020278;
+        height: 10px;
+        padding:20px;
+        width: 110px;
+    
+    }
+    nav{
+        background-color: black;
+        width: 85px;
+        height: 650px;
+       overflow-y: scroll;
+        position: absolute;
+        left: 9px ;
+            top: 80px;
+        border-radius: 35px 0px 0px 35px;
+        
+    }
+    nav a{
+    padding: 1px;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    p{
+        padding: 0px;
+        background-color:gray ;
+        width: 14px;
+        border-radius: 100%;
+        position: relative;
+        top: 26px;
+        left: 2px;
+        
+    }
+    h2{
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+    }
+    form{
+        width: 295px;
+        position: relative;
+        background-color: white;
+        border-color: black;
+        height: 650px;
+        position: relative;
+        left: 95px ;
+        top: 20px;
+        border-radius: 0px 35px 35px 0px;
+        }
+        input[type=text]{
+            width: 200px;
+            border: none;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+          }
+    
+     fieldset{
+        border-color:gray;
+        width: 50px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        
+     }
+    .fond{
+        position: relative;
+        left: 13px;
+    
+    }
+    .date{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        right: 9px;
+        margin-top: 10px;
+        
+        
+    }
+    #datepost, #dateEvenement{
+        border: solid 1px ;
+        border-color: gray;
+        border-radius: 5px;
+        height: 30px;
+    }
+    .number{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        right: 20px;
+        
+    }
+    #nbrenfants, #nbrfemmes, #nbrhommes{
+        width: 50px ;
+        font-size: 8px;
+        border: none;
+        
+    }
+    .nbrenfants, .nbrfemmes, .nbrhommes{
+        width: 40px ;
+        font-size: 10px;  
+        height: 30px ;
+        position: relative;
+        left: 10px;
+        }
+    select{
+        width: 200px;
+        border: none;
+    }
+    .cercle_vert{
+        position: relative;
+        left: 170px;
+        top: 29px;
+        background-color: #00A51E;
+        border-radius: 100%;
+        padding: 6px;
+        border: #00A51E;
+    }   
+}
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .container{
+    
+        background: linear-gradient(to bottom right, #242524c6, #b4acaca8);
+       width: 100%;
+       height: 130vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+        
+    }
+    section{
+        
+        
+        display: flex;
+        
+       margin-bottom: 50px;
+       
+    
+    }
+    .h{
+        display: flex;
+        justify-content: space-around;
+        background-color:#bd02023f;
+        width: 100%;
+    }
+    .img, img{
+        width: 90px;
+        height: 50px;
+    }
+    .lien{
+        background-color:#bd020278;
+        height: 10px;
+        padding:20px;
+        width: 110px;
+    
+    }
+    nav{
+        background-color: black;
+        width: 225px;
+        height: 650px;
+       overflow-y: scroll;
+        position: absolute;
+        left: 290px ;
+            top: 80px;
+        border-radius: 35px 0px 0px 35px;
+        
+    }
+    nav a{
+    padding: 1px;
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    p{
+        padding: 9px;
+        background-color:gray ;
+        width: 14px;
+        border-radius: 100%;
+        position: relative;
+        top: 36px;
+        left: 12px;
+        
+    }
+    h2{
+        position: relative;
+        left: 80px;
+        font-size: 13px;
+    }
+    form{
+        width: 485px;
+        position: relative;
+        background-color: white;
+        border-color: black;
+        height: 650px;
+        position: relative;
+        left: 505px ;
+        top: 20px;
+        border-radius: 0px 35px 35px 0px;
+        }
+        input[type=text]{
+            width: 200px;
+            border: none;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+          }
+    
+     fieldset{
+        border-color:gray;
+        width: 350px;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        
+     }
+    .fond{
+        position: relative;
+        left: 33px;
+    
+    }
+    .date{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        right: 59px;
+        margin-top: 10px;
+        
+        
+    }
+    #datepost, #dateEvenement{
+        border: solid 1px ;
+        border-color: gray;
+        border-radius: 5px;
+        height: 30px;
+    }
+    .number{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        right: 60px;
+        
+    }
+    #nbrenfants, #nbrfemmes, #nbrhommes{
+        width: 50px ;
+        font-size: 8px;
+        border: none;
+        
+    }
+    .nbrenfants, .nbrfemmes, .nbrhommes{
+        width: 60px ;
+        font-size: 11px;  
+        height: 30px ;
+        position: relative;
+        left: 10px;
+        }
+    select{
+        width: 340px;
+        border: none;
+    }
+    .cercle_vert{
+        position: relative;
+        left: 320px;
+        top: 29px;
+        background-color: #00A51E;
+        border-radius: 100%;
+        padding: 6px;
+        border: #00A51E;
+    }
+}

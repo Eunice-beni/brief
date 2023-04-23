@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
+  <title>Formulaire d'ajout</title>
+  <script defer src="accidents.js"></script>
+</head>
+<body>
+  <?php include "seting.php"; ?>
+  <div class="container">
+    <div class="h">
+      <a class="lien" href="E_graph_accidents.php">Voir Sastistique</a>
+                             
+        <h3 class='text'>ACCIDENT</h3>
+                                
+          <div class="img">
+            <img src="image/Capture d’écran 2022-07-26 123514 LOGO.png" alt="logo">
+          </div>
+    </div>
+    <section>
+    
+<nav>
+  
+    <a  href="">
+        <p style="background-color:#009d1d;">01</p><h2>Accidents</h2>
+     </a>
+    <hr>
+     <a href="Recensement_vol.php">
+        <p>02</p><h2>Vols</h2>
+     </a>
+    <hr>
+     <a href="Recensement_voils.php">
+        <p>03</p><h2>Viols</h2>
+      </a>
+    <hr>
+      <a href="Resencement_meurtre.php">
+        <p>04</p><h2>Meurtre</h2>
+      </a>
+    <hr>
+      <a href="Recensement_suicide.php">
+        <p>05</p><h2>Suicide</h2>
+     </a>
+    <hr>
+     <a href="Recensement_incendie.php">
+        <p>06</p><h2>Incendies</h2>
+      </a>
+    <hr>
+     <a href="Recensement_innondation.php">
+        <p>07</p><h2>Innondations</h2>
+      </a>
+    <hr>
+    <a href="Recensement_negligence_medical.php">
+        <p>08</p><h2>Négligeance Médical</h2>
+      </a>
+</nav>
+<form action="E_connexion_innondation.php" method="POST">
+  <div class="fond">
+                                    <fieldset> 
+                                        <legend>Titre</legend>
+                                        <input type="text" class="form-control" id="titre" name="titre" placeholder="Titre" required>
+                                    </fieldset>
+
+                                    <fieldset> 
+                                        <legend>Engin</legend>
+                                        <input type="text" name="engins" id="engins" class="form-control"   placeholder="engin" required>
+                                    </fieldset>
+
+                                    <fieldset> 
+                                         <legend>nombre de victime </legend>
+                                        <input type="text" class="form-control" id="nbrevictimes" oninput="handleInput()" name="nbrevictimes" placeholder="nombre de victime" required>
+                                    </fieldset>
+                              <div class="number">
+                                    <fieldset class="nbrenfants" >
+                                        <legend>nombre d'enfant</legend>
+                                        <input type="number" name="nbrenfants" id="nbrenfants" placeholder="nombre d'enfant">
+                                     </fieldset>
+
+                                     <fieldset class="nbrfemmes" >
+                                        <legend>nombre femme </legend>
+                                       <input type="number" id="nbrfemmes" name="nbrfemmes"placeholder="nombre de femme">
+                                     </fieldset>
+                                     
+                                     <fieldset class="nbrhommes" >
+                                        <legend>nombre d'homme</legend>
+                                        <input type="number" name="nbrhommes" id="nbrhommes" placeholder="nombre d'homme" >
+                                       </fieldset>   
+                                        </div> 
+
+                                     <fieldset > 
+                                        <legend>lieu </legend>
+                                        <!-- <input type="text" class="form-control" id="lieu" name="lieu" placeholder="lieu"> -->
+                                        <select  name="lieu">
+                                            <option value=""></option>
+                                            <?php foreach ($jour as $ville): ?>
+                                            <option value="<?= $ville->id?>"><?= $ville->ville ?></option>
+                                            <?php endforeach; ?>
+                                         </select>
+                                     </fieldset>   
+                                    
+                                     
+                                     <fieldset> 
+                                        <legend>source </legend>
+                                        <input type="text" class="form-control" id="source" name="source" placeholder="source" required>
+                                    </fieldset>
+                                    <div class="date">
+                                   
+                                              <div> 
+                                                Date de l'evenement:
+                                                    <br>                    
+                                            <input type="date" name="dateEvenement" id="dateEvenement" >
+                                    </div>
+
+                                       <div>
+                                                  Date du post:
+                                                  <br>                         
+                                        <input type="date" name="datepost" id="datepost" >
+                                    </div>
+                                    </div>
+
+                                    <input class="cercle_vert" type="submit" name="submit" value="SAVE" >
+                                    </div>
+</form>
+
+</div>
+</section>
+</body>
+</html>
